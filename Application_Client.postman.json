@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "ee5a1f8b-a338-4e6c-94c4-e7a78d255167",
+		"name": "Application_Client",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Teste1\",\r\n  \"dataNascimento\": \"1999-07-01T03:23:03.481Z\",\r\n  \"cpf\": \"00000000000\",\r\n  \"rg\": \"000000000\",\r\n  \"telefone\": [\r\n    {\r\n      \"tipoTelefone\": \"Celular\",\r\n      \"numero\": \"(11)00000-0000\"\r\n    },\r\n     {\r\n      \"tipoTelefone\": \"Fixo\",\r\n      \"numero\": \"(11)0000-0000\"\r\n    }\r\n  ],\r\n  \"endereco\": [\r\n    {\r\n      \"nomeRua\": \"Rua teste\",\r\n      \"numero\": 344,\r\n      \"bairro\": \"teste\",\r\n      \"cidade\": \"teste\",\r\n      \"estado\": \"SP\"\r\n    }\r\n  ],\r\n  \"RedesSociais\": [\r\n    {\r\n      \"NomeRede\": \"Linkedin\",\r\n      \"Url\": \"http://user.linkedin.com/\"\r\n    },\r\n    {\r\n      \"NomeRede\": \"Facebook\",\r\n      \"Url\": \"http://user.facebook.com/\"\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/Client",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"Client"
+					]
+				},
+				"description": "Create"
+			},
+			"response": []
+		},
+		{
+			"name": "Busca Todos Clientes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/Client",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"Client"
+					]
+				},
+				"description": "Busca Cliente"
+			},
+			"response": []
+		},
+		{
+			"name": "Busca Cliente",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/Client/6078bd63812b40635a48b5cc",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"Client",
+						"6078bd63812b40635a48b5cc"
+					]
+				},
+				"description": "Busca Cliente"
+			},
+			"response": []
+		},
+		{
+			"name": "Alterar Cliente",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"6078e0ac7d0a1b65ef53838f\",\r\n    \"name\": \"Teste5\",\r\n    \"dataNascimento\": \"1999-07-01T03:23:03.481Z\",\r\n    \"cpf\": \"888888888\",\r\n    \"rg\": \"000000000\",\r\n    \"telefone\": [\r\n        {\r\n            \"tipoTelefone\": \"Celular\",\r\n            \"numero\": \"(11)00000-0000\"\r\n        },\r\n        {\r\n            \"tipoTelefone\": \"Fixo\",\r\n            \"numero\": \"(11)0000-0000\"\r\n        }\r\n    ],\r\n    \"endereco\": [\r\n        {\r\n            \"nomeRua\": \"Rua teste\",\r\n            \"numero\": 344,\r\n            \"bairro\": \"teste\",\r\n            \"cidade\": \"teste\",\r\n            \"estado\": \"SP\"\r\n        }\r\n    ],\r\n    \"redesSociais\": [\r\n        {\r\n            \"nomeRede\": \"Linkedin\",\r\n            \"url\": \"http://user.linkedin.com/\"\r\n        },\r\n        {\r\n            \"nomeRede\": \"Facebook\",\r\n            \"url\": \"http://user.facebook.com/\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/Client",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"Client"
+					]
+				},
+				"description": "Alterar Cliente"
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar Cliente",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/Client/6078b82579771f6507107375",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"Client",
+						"6078b82579771f6507107375"
+					]
+				},
+				"description": "Deletar Cliente"
+			},
+			"response": []
+		}
+	]
+}

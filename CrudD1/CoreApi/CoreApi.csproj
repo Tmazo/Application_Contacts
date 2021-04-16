@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\Cliente.cs~RFf13c428.TMP" />
+    <None Remove="Models\Cliente.cs~RFf279641.TMP" />
+    <None Remove="Models\Cliente.cs~RFf2a96a0.TMP" />
+    <None Remove="Models\Cliente.cs~RFf33e224.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.12.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
