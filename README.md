@@ -6,7 +6,7 @@ Application_Client.postman.json
 
 ## Pré requisitos
 1. Baixar o arquivo JSON (Application_Client.postman.json) para utilização no postman;
-2. Importar arquivo para o postman;
+2. Importar arquivo mencionado acima,no postman;
 3. Ter o mongoDb instalado;
 4. Possuir o C# instalado;
 5. Possuir o Postman em sua maquina. 
