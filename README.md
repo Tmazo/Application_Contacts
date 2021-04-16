@@ -5,11 +5,11 @@ Aplicação de clientes do tipo WebAPI, utilizando a linguagem de programação 
 Application_Client.postman.json
 
 ## Pré requisitos
-1 - Baixar o arquivo JSON para utilização no postaman;
-2 - Importar arquivo para o postman;
-3 - Ter o mongoDb instalado;
-4 - Possuir o C# instalado;
-4-  Possuir o Postman em sua maquina. 
+1. Baixar o arquivo JSON (Application_Client.postman.json) para utilização no postman;
+2. Importar arquivo para o postman;
+3. Ter o mongoDb instalado;
+4. Possuir o C# instalado;
+5. Possuir o Postman em sua maquina. 
 
 ## Inicio do processo de execução da aplicação
 1 - Copie a aplicação para a sua máquina
