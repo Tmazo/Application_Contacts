@@ -5,9 +5,10 @@ Aplicação de clientes do tipo WebAPI, utilizando a linguagem de programação 
 Application_Client.postman.json
 
 ##Pré requisitos:
-1 - Baixar o arquivo JSON para utilização no postaman
-2 - Ter o mongoDb instalado;
-3 - Possuir o C# instalado;
+1 - Baixar o arquivo JSON para utilização no postaman;
+2 - Importar arquivo para o postman;
+3 - Ter o mongoDb instalado;
+4 - Possuir o C# instalado;
 4-  Possuir o Postman em sua maquina. 
 
 ## Inicio do processo de execução da aplicação
@@ -26,7 +27,7 @@ base path: http://localhost:5001/swagger
 | Método    | Recurso                      | Descrição                  |
 |---------- |:-----------------------------|:---------------------------|
 | `GET`     | `/Client`                    | Listar clientes            |
-| `GET`     | `Client/:id				   | Visualizar cliente         |
+| `GET`     | `Client/:id				           | Visualizar cliente         |
 
 | Método  	| Recurso                      | Descrição                 	|
 |---------- |:-----------------------------|:--------------------------	|
@@ -34,7 +35,7 @@ base path: http://localhost:5001/swagger
 
 | Método    | Recurso                      | Descrição                  |
 |---------- |:-----------------------------|:---------------------------|
-| `DELETE`  | `/Client/:id`                | Excluir Cliente     		|
+| `DELETE`  | `/Client/:id`                | Excluir Cliente        		|
 
 | Método    | Recurso                      | Descrição                  |
 |---------- |:-----------------------------|:--------------------------	|
