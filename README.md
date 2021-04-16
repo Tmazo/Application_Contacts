@@ -27,7 +27,7 @@ base path: http://localhost:5001/swagger
 | Método    | Recurso                      | Descrição                  |
 |---------- |:-----------------------------|:---------------------------|
 | `GET`     | `/Client`                    | Listar clientes            |
-| `GET`     | `Client/:id				           | Visualizar cliente         |
+| `GET`     | `/Client/:id				           | Visualizar cliente         |
 
 | Método  	| Recurso                      | Descrição                 	|
 |---------- |:-----------------------------|:--------------------------	|
