@@ -12,7 +12,7 @@ Application_Client.postman.json
 4-  Possuir o Postman em sua maquina. 
 
 ## Inicio do processo de execução da aplicação
-1. Copie a aplicação para a sua máquina
+1 - Copie a aplicação para a sua máquina
 
 ## Executando a aplicação
 No Visual Studio rodar aplicação pela API. Este campo fica ao lado do "Any CPU"
